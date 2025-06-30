@@ -3,7 +3,7 @@ import styles from './PostComments.module.css';
 
 import Comment from '../../models/Comment';
 
-const Post = () => {
+const PostComments = () => {
     const [comments, setComments] = useState<Comment[]>([]);
     const [tempComment, setTempComment] = useState('');
 
@@ -44,4 +44,4 @@ const Post = () => {
     );
 }
 
-export default Post;
+export default PostComments;
